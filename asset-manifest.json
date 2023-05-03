@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/ecwid-shopgit/static/css/main.3771f4d3.css",
-    "main.js": "/ecwid-shopgit/static/js/main.1e352d19.js",
-    "index.html": "/ecwid-shopgit/index.html",
-    "main.3771f4d3.css.map": "/ecwid-shopgit/static/css/main.3771f4d3.css.map",
-    "main.1e352d19.js.map": "/ecwid-shopgit/static/js/main.1e352d19.js.map"
+    "main.css": "/ecwid-shop/static/css/main.3771f4d3.css",
+    "main.js": "/ecwid-shop/static/js/main.1e352d19.js",
+    "index.html": "/ecwid-shop/index.html",
+    "main.3771f4d3.css.map": "/ecwid-shop/static/css/main.3771f4d3.css.map",
+    "main.1e352d19.js.map": "/ecwid-shop/static/js/main.1e352d19.js.map"
   },
   "entrypoints": [
     "static/css/main.3771f4d3.css",
