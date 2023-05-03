@@ -1,0 +1,23 @@
+.categoryList {
+  width: 100%;
+}
+.categoryList__title {
+  display: block;
+  text-align: center;
+}
+.categoryList__box {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.productsList {
+  width: 100%;
+}
+.productsList__title {
+  display: block;
+  text-align: center;
+}
+.productsList__box {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}

@@ -1,0 +1,86 @@
+.container
+
+  // min-height: 100vh
+  margin-left: 10rem
+  margin-right: 10rem
+  display: grid
+  grid-template-columns: repeat(2, 1fr)
+  margin-bottom: 6rem
+  // grid-template-rows: 100vh
+  // grid-gap: 1rem
+.first-container
+  grid-column: 1/2
+  // background-color: red
+  display: inline
+  text-align: center
+  &__title
+    font-size: 2rem
+    font-weight: 500
+  &__image
+    width: 27rem
+    height: 27rem
+  &__block
+    margin-top: 2rem
+    width: 25rem
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-rows: 10rem
+    margin-left: 10rem
+    margin-right: 10rem
+    grid-column-gap: 1rem
+  &__item1
+    grid-column: 1/2
+    width: 100%
+    height: 100%
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 255, .2)
+    object-fit: cover	
+    filter: brightness(80%)
+    &:hover
+      transition: all 1s
+      transform: scale(1.6) translateX(-2rem) translateY(-2rem)
+     
+      
+
+  &__item2
+    width: 100%
+    height: 100%
+    object-fit: cover	
+    grid-column: 2/3
+    box-shadow: 2px 2px 5px 2px rgba(0, 0, 255, .2)
+    filter: brightness(80%)
+    &:hover
+      transition: all 1s
+      transform: scale(1.6) translateX(2rem) translateY(-2rem)
+
+.second-container
+  padding-top: 1rem
+  grid-column: 2/3
+  // background-color: blue
+  &__price
+    margin-top: 5.5rem
+    font-size: 2rem
+    font-weight: 400
+
+  &__button
+    
+    width: 11rem
+    height: 3rem
+    border: none
+    border-radius: 0.5rem
+    color: white
+    background: #262f58
+    margin-bottom: 2rem
+    margin-left: 3rem
+    font-size: 1.5rem
+    cursor: pointer
+    transition: all .5s
+    &:hover
+      background:  #61A568
+      transform: translateY(-25%)
+  &__description
+    display: block
+    margin-top: 2rem
+    text-align: justify
+    margin-bottom: 3rem
+    font-weight: 400
+    font-size: 1rem
