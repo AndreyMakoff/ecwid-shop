@@ -2,7 +2,6 @@
   "name": "ecwid-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AndreyMakoff.github.io/ecwid-shopgit",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
